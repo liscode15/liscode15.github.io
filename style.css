@@ -1,0 +1,18 @@
+.jumbotron {
+    padding-top: 7rem;
+  background-color: #e2edff;
+}
+
+#projects {
+    background-color: #e2edff;
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
