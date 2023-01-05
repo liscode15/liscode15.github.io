@@ -9,6 +9,9 @@
     <!-- BootstrapsIcon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
    
+    <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- end aos -->
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -44,7 +47,7 @@
     <section class="jumbotron text-center">
       <img src="img/orda.jpg" alt="Ganteng kan gw" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">IPSAAS</h1>
-      <p class="lead">Ikatan Pelajar Islam Pemalang Pekalongan Batang Tegal Brebes Madrasah Mu'allimin Mu'allimaat Muhammadiyah Yogyakarta</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -59,14 +62,14 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mg-3">
-          <div class="col">
+          <div class="col" data-aos="zoom-out-down" data-aos-delay="200" data-aos-duration="">
             <h2>Tentang IPSAAS</h2>
           </div>
           <div class="row justify-content-center fs-5 text-center">
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-right" data-aos-delay="200">
               <p>Kenalan dulu nih,karo sing jenenge IPSAAS.Sebuah organisasi bagi pelajar Madrasah Muallimin dan Muallimat Yogyakarta.</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-left" data-aos-delay="200">
               <p>Organisasi ini sudah ada sejak tahun 1989 loh! Lebih tepatnya pada 5 Februari 1989.Cen wes tuwek!</p>
             </div>
           </div>
@@ -86,32 +89,32 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="500">
             <h2>INFO KEGIATAN</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/mh.jpg" class="card-img-top" alt="project1" />
+              <img src="img/mh.jpg" class="card-img-top" alt="project1" data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000"/>
               <div class="card-body">
-                <p class="card-text">Kegiatan yang pasti ada setiap tahunnya yaitu Mubaligh Hijrah,yang dilaksanakan setiap bulan ramadhan.Ini adalah seperti kegiatan inti dari ORDA ini sob!</p>
+                <p class="card-text" data-aos="fade-up" data-aos-duration="3000">Kegiatan yang pasti ada setiap tahunnya yaitu Mubaligh Hijrah,yang dilaksanakan setiap bulan ramadhan.Ini adalah seperti kegiatan inti dari ORDA ini sob!</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/fk.jpg" class="card-img-top" alt="project2" />
+              <img src="img/fk.jpg" class="card-img-top" alt="project2" data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000" />
               <div class="card-body">
-                <p class="card-text">FOKAB singkatan dari Forum Keakraban,adalah kegiatan dimana kita mengumpulkan adik-adik kelas kita dalam suatu forum supaya bisa menjalin keakraban dengan baik.</p>
+                <p class="card-text" data-aos="fade-up" data-aos-duration="3000">FOKAB singkatan dari Forum Keakraban,adalah kegiatan dimana kita mengumpulkan adik-adik kelas kita dalam suatu forum supaya bisa menjalin keakraban dengan baik.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="img/tb.jpg" class="card-img-top" alt="project3" />
+              <img src="img/tb.jpg" class="card-img-top" alt="project3"  data-aos="flip-right" data-aos-delay="500" data-aos-duration="1000"/>
               <div class="card-body">
-                <p class="card-text">Selain itu IPSAAS juga mengadakan Tabligh Akbar yang bisanya dilaksanakan pada rangkaian acara dari Mubaligh Hijrah.</p>
+                <p class="card-text" data-aos="fade-up" data-aos-duration="3000">Selain itu IPSAAS juga mengadakan Tabligh Akbar yang bisanya dilaksanakan pada rangkaian acara dari Mubaligh Hijrah.</p>
               </div>
             </div>
           </div>
@@ -132,7 +135,7 @@
     <!-- Kontak -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center mb-3">
+        <div class="row text-center mb-3" data-aos="zoom-out-right" data-aos-duration="1500">
           <h2>MPUN RIYEN...</h2>
           <p>Sekian ya sob! Mungkin baru segini yang bisa kami sampaikan.Terimakasih atas perhatiannya.</p>
           <br>
@@ -160,5 +163,20 @@
     </footer>
     <!-- Akhir footer -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+
+
+  <script>
+   gsap.registerPlugin(TextPlugin);
+   gsap.to('.lead', {duration:2, delay:1.5, text:'Ikatan Pelajar Islam Pemalang Pekalongan Batang Tegal Brebes Madrasah Muallimin Muallimat Yogyakarta'});
+    gsap.from(".jumbotron img", {duration: 1, rotateY: '360', ease: 'bounce'});
+    gsap.from(".navbar", {opacity: 0, y: '-100%', duration: 1.5, ease: 'bounce'});
+    gsap.from(".display-4", {opacity: 0, x: -50, duration: 1.5, delay: 0.5, ease: 'back'});
+ </script>
   </body>
 </html>
